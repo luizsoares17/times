@@ -1,0 +1,225 @@
+@charset "UTF-8";
+
+body {
+    background-color: darkgray;
+    box-shadow: 0px 7px 8px;
+    background-image: url(imagens/campo2.jpg);
+}
+
+
+header > h1 {
+    background-image: linear-gradient(to right, blue, transparent);
+    padding: 10px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+article {
+    background-color: #506266;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: auto;
+    padding: 10px;
+    min-width: 400px;
+    max-width: 950px;
+}
+
+.bar {
+    
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    max-width: 900px;
+    height: 310px;
+    margin: auto;
+    background-image: linear-gradient(to right, rgba(47, 0, 255, 0.507), rgba(255, 0, 0, 0.651));
+    
+}
+
+.bar img {
+    border: 2px solid rgba(255, 0, 0, 0.651);
+    float: left;
+    margin: 5px 5px 0 5px;
+    padding: 3px;
+    width: 15%;
+}
+
+.bar h2 {
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.bar p {
+    color: white;
+    font-size: 1.2em;
+    text-align: justify;
+    padding: 10px;
+}
+
+.utd {
+    
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    max-width: 900px;
+    height: 310px;
+    margin: auto;
+    background-image: linear-gradient(to right, yellow, red);
+}
+
+.utd img {
+    border: 2px solid rgba(255, 0, 0, 0.651);
+    float: left;
+    margin: 5px 5px 0 5px;
+    padding: 5px;
+    width: 15%;
+}
+
+.utd p {
+    color: white;
+    font-size: 1.2em;
+    text-align: justify;
+    padding: 10px;
+}
+
+.utd h2 {
+    color: white;
+    text-align: center;
+}
+
+.gre {
+    
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    max-width: 900px;
+    height: 310px;
+    margin: auto;
+    background-image: linear-gradient(to bottom, rgb(55, 0, 255), black, white);
+}
+
+.gre img {
+    border: 2px solid rgba(14, 38, 255, 0.733);
+    float: left;
+    margin: 5px 5px 0 5px;
+    padding: 5px;
+    width: 15%;
+}
+
+.gre p {
+    color: white;
+    font-size: 1.2em;
+    text-align: justify;
+    padding: 10px;
+}
+
+.gre h2 {
+    color: white;
+    text-align: center;
+}
+
+.mil {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    max-width: 900px;
+    height: 310px;
+    margin: auto;
+    background-image: linear-gradient(to right, rgb(255, 0, 0), rgb(6, 7, 14));
+}
+
+.mil img {
+    border: 2px solid rgba(8, 9, 24, 0.733);
+    float: left;
+    margin: 5px 5px 0 5px;
+    padding: 5px;
+    width: 15%;
+}
+
+.mil p {
+    color: white;
+    font-size: 1.2em;
+    text-align: justify;
+    padding: 10px;
+}
+
+.mil h2 {
+    color: white;
+    text-align: center;
+}
+
+.psg {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    max-width: 900px;
+    height: 310px;
+    margin: auto;
+    background-image: linear-gradient(to right, rgb(55, 0, 255), rgb(255, 0, 0));
+}
+
+.psg img {
+    border: 2px solid rgba(14, 38, 255, 0.733);
+    float: left;
+    margin: 5px 5px 0 5px;
+    padding: 5px;
+    width: 15%;
+}
+
+.psg p {
+    color: white;
+    font-size: 1.2em;
+    text-align: justify;
+    padding: 10px;
+}
+
+.psg h2 {
+    color: white;
+    text-align: center;
+}
+
+.br {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    max-width: 900px;
+    height: 310px;
+    margin: auto;
+    background-image: linear-gradient(to right, rgb(55, 0, 255), rgb(229, 255, 0));
+}
+
+.br img {
+    border: 2px solid rgba(14, 38, 255, 0.733);
+    float: left;
+    margin: 5px 5px 0 5px;
+    padding: 5px;
+    width: 15%;
+}
+
+.br p {
+    color: white;
+    font-size: 1.2em;
+    text-align: justify;
+    padding: 10px;
+}
+
+
+.br h2 {
+    color: white;
+    text-align: center;
+}
+
+footer {
+    background-image: linear-gradient(to right, blue, black);
+    padding: 10px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1em;
+    padding: 15px;
+}
